@@ -1,0 +1,377 @@
+html {
+	height: 100%;
+}
+body {
+	background: url(images/ihn_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 85%;
+	font-size: 1.0em;
+	background-color: #101C1C;
+	color: #8C5416;
+	font: normal 100% Arial, Calibri, sans-serif;
+}
+
+h1 {
+	font-size: 2.75em; /* 44/16 */
+	text-transform: uppercase;
+}
+
+h1 a {
+	text-decoration: none;
+	font-size: 1.27272727em; /* 56/44 */
+	color: #27BCB1;
+	font-weight: bold;
+}
+
+#page {
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	padding-top:5%;
+	padding-bottom:2%;
+	padding-right:25%;
+	padding-left:10%;
+}
+
+.login {
+	margin: auto;
+	width: 90%; /* 900/1000 */
+	height: 55%;
+}
+.credential{
+	background: -moz-linear-gradient(left, #09625C, #129087) repeat scroll 0 0 #129087;			
+	background: -webkit-gradient(linear, 100% 100%, 0 0, from(#09625C), to(#129087));
+	background: -ms-linear-gradient(left, #09625C, #129087);
+	background: -o-linear-gradient(left, #09625C, #129087);	
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#09625C, endColorStr=#129087, GradientType=1);
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#09625C, endColorstr=#129087, GradientType=1)";
+}
+.login .credential {
+	float: left;
+	min-height: 100%;
+	/*width: 44.44444%;  400/900 */
+	width: 55%;
+	overflow: hidden;
+}
+form {
+	margin-top: 8%;
+	float:left;
+	width: 75%;
+}
+.ihn-login-form{
+	width:100%;
+	float:left;
+	margin-bottom:1em;
+}
+.ihn-form-label{
+	float: left; 
+	background: #d9d9d9; 
+	width: 43%;
+}
+.ihn-login-form-arrow{
+	float: left; 
+	width: 6.8%; 
+	background: #ffffff;
+}
+.ihn-login-arrow-image{
+	height: 100%; 
+	width: 68%; 
+	float: left;
+}
+.ihn-login-tbox{
+	float: left; 
+	width: 45%;
+}
+.ihn-input-box{
+	padding:0.4em;
+}
+
+.link_button {
+	display: block;
+	width: 100%;
+	margin: 22% 3% 2% 3%; /* 10/400, 12/400 */
+}
+label {
+	font: normal 1.125em Arial, Calibri, sans-serif; /* 18/16 */
+	letter-spacing:0.1666667em; /* 3/18 */
+	text-decoration: none;
+	background-color: #D9D9D9;
+	color: #000000;
+	display: inline-block;
+	width: 25%; /* 100/400 */
+	padding: 0.333333em 3.111111em 0.333333em 0.333333em; /* 6/18, 56/18, 8/18, 8/18 */
+}
+input, select {
+	font: normal 1.05em Arial, Calibri, sans-serif; /* 18/16 */
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	width: 100%; /* 240/400 */
+	padding: 0.333333em 0.333333em 0.333333em 0.333333em; /* 6/18, 56/18, 8/18, 8/18 */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: none;
+}
+.ihn-login-arrow{
+	float: left;
+	background:#d9d9d9;
+	height: 100%;
+	position: relative;
+	width: 9.75%;
+	z-index: 1;
+}
+/*.action{
+	background: -moz-linear-gradient(top, #159b92, #095f59) repeat scroll 0 0 #095f59;			
+	background: -webkit-gradient(linear, 100% 100%, 0 0, from(#159b92), to(#095f59));
+	background: -ms-linear-gradient(top, #159b92, #095f59);
+	background: -o-linear-gradient(top, #159b92, #095f59);	
+	For Internet Explorer 5.5 - 7 */
+/* 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#159b92, endColorStr=#095f59, GradientType=1);
+	 For Internet Explorer 8 */
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#159b92, endColorstr=#095f59, GradientType=1)";
+}*/
+.login .action {
+	float: left;
+	width: 21%; /* 166/900 */
+	min-height: 100%;
+	margin-top:2em;
+	overflow: hidden;
+}		
+.action_buttons {
+	margin-top: 40%;
+}
+button {
+	font-size: 1.25em; /* 20/16 */
+	background: #EFC699;
+	padding: 0.3em 1.6em 0.3em 1.6em;
+	font-weight: bold;
+	color: #000000;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	border-radius:0.5em;
+	cursor: pointer;
+	margin-bottom: 10.84337%;
+	margin-top: 10.84337%;
+}
+button:hover {
+opacity:0.85;
+}
+.link_button a:link, .link_button a:visited {
+	font-size: 1.0em;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.login .logo {
+	background-color: #D9D9D9;
+	float: left;
+	width: 26.7777778%; /* 331/900 */		
+	min-height: 100%;
+	overflow: hidden;
+}
+.image{
+	width: 75%;
+	float: right;
+}
+img {
+	float: right;
+	max-width: 100%;
+	margin-bottom: 2.2507%;
+}
+
+/*-------------Media Queries-----------------*/
+/*Widescreen laptop, desktop, TV*/
+@media screen and (min-width: 999px) {
+
+
+}
+@media screen and (max-width: 1024px) {
+	
+	
+}
+
+
+
+/*Laptop, desktop*/
+@media screen and (max-width: 999px) {
+	label {
+		font: normal 1.0em Arial, Calibri, sans-serif; /* 16/16 */
+		letter-spacing:0.055555em; /* 1/18 */
+		width: 15%; 
+	}
+	input, select {
+		font: normal 1.0em Arial, Calibri, sans-serif; /* 16/16 */
+	}
+	
+}
+/*Tested on 900x1920 */
+@media screen and (max-width: 900px) {
+
+}
+
+
+/*Tested on 800x1024 Galaxy Tab 10.1 Emulator*/
+@media screen and (max-width: 800px) {
+	.login .credential, .login .action, .login .logo {
+				width: 100%;
+				min-height: auto;
+			}
+			.title {
+				padding: 0%;
+			}
+			h1 {
+				font-size: 2em; /* 32/16 */
+			}
+			h1 a {
+				font-size: 1.3125em; /* 42/32 */
+			}
+			form {
+				margin-top: 2%;
+				margin-bottom: 2%;
+			}
+			label {
+				font: normal 1.125em Arial, Calibri, sans-serif; /* 18/16 */
+				letter-spacing:0.1666667em; /* 3/18 */
+				width: 24%;
+			}
+			input, select {
+				font: normal 1.125em Arial, Calibri, sans-serif; /* 18/16 */
+				width: 58%;
+			}
+			.action_buttons {
+				margin-top: 0%;
+			}
+			button {
+				margin: 0%;
+				margin-bottom: 2%;
+				font-size: 1em;
+				padding: 0.3em 1em 0.3em 1em;
+				-moz-border-radius: 0.8em;
+				-webkit-border-radius: 0.8em;
+				cursor: pointer;
+			}
+			span {
+				display: inline;
+			}
+			.image{
+				width: 100%;
+			}
+			img.icth {
+				float: right;
+				height: 35%;
+			}		
+			img.client {
+				float: left;
+				height: 25%;
+			}	
+	
+}
+/*Tested on 480x800 Galaxy S Emulator*/
+@media screen and (max-width: 480px) {
+	.login .credential, .login .action, .login .logo {
+				width: 100%;
+			}
+			.title {
+				padding: 0%;
+			}
+			h1 {
+				font-size: 1.375em; /* 22/16 */
+				text-align: center;
+			}
+			h1 a {
+				font-size: 1.272727em; /* 28/22 */
+			}
+			span {
+				display: inline;
+				width: 100%;
+				margin: 0%;
+			}
+			form {
+				margin-top: 3%;
+			}
+			label {
+				font: normal 1.0em Arial, Calibri, sans-serif;
+				letter-spacing:0em;
+				width: 100%;
+				text-align: center;
+			}
+			input, select {
+				font: normal 1.0em Arial, Calibri, sans-serif;
+				width: 100%;
+				text-align: center;
+			}
+			.action_buttons {
+				margin-top: 0%;
+				width: 100%;
+			}
+			button {
+				float: right;
+				margin-top: 0%;
+				margin-left: 4%;
+				margin-right: 1%;
+				margin-bottom: 2%;
+				font-size: 1em;
+				padding: 0.1em 0.5em 0.1em 0.5em;
+				-moz-border-radius: 0.8em;
+				-webkit-border-radius: 0.8em;
+				cursor: pointer;
+			}
+			.link_button  {
+				font-size: 0.8em;
+				margin-right: 2%;
+				margin-left: 2%;
+			}
+			.image{
+				width: 100%;
+			}
+			img.icth {
+				float: right;
+				height: 25%;
+				width: 40%;
+			}		
+			img.client {
+				float: left;
+				height: 25%;
+				width: 50%;
+			}		
+}
+
+/*Narro screen smartphones*/
+@media screen and (max-width: 320px) and (max-width: 360px) {
+	.login {
+		width: 100%;
+	}
+	.title{
+		margin-top:2em;
+	}
+	.login .credential{
+		width:75%;
+		height:100%;
+	}
+	.login .action{
+		width:25%;
+	}
+	.login .logo{
+		bottom:0;
+		position:absolute;
+	}
+	body{
+		margin:0;
+	}
+	label{
+		font-size:0.8em;
+	}
+	.ihn-login-arrow{
+		width:25%;
+		background:none;
+	}
+}
